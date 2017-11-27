@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+#include "Singleton.h"
+
 //--------------------------------------------------------------------------------
 using namespace std;
 
@@ -41,4 +43,5 @@ void main()
 	cin.get();
 
 	auto c = Colleague();
+	auto& s = Singleton::Instance();
 }

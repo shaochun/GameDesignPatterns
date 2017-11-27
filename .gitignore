@@ -20,6 +20,7 @@ Build
 *.log
 x64
 *.VC.db
+*.VC.opendb
 
 # Builds
 *.apk

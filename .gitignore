@@ -1,0 +1,42 @@
+# Generic project temporary directories
+[Bb]inaries/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Cc]odeAnalyst/
+[Tt]emp/
+ipch/
+
+Library
+Temp
+Build
+
+# Auto-generated VS solution and project files
+*.suo
+*.user
+*.userprefs
+*.pdb
+*.tlog
+*.log
+x64
+*.VC.db
+
+# Builds
+*.apk
+
+
+# Logs
+UpgradeLog*
+*.log
+
+
+# Project/Stuff to Ignore
+pkgAmplify
+testB2M
+testReflection.rar
+testDynbone
+testWaterUV
+
+# Ignore amplify in specific projects
+testDaynight/Assets/amplify
+testDaynight/Assets/amplify.meta

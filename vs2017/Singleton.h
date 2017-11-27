@@ -10,12 +10,12 @@ class Singleton
 		return _instance;
 	}
 
-	Singleton(Singleton const&)				= delete; //copy construct
-	Singleton(Singleton&&)					= delete; //move construct
-	Singleton& operator=(Singleton const&)	= delete; //copy assign
-	Singleton& operator=(Singleton&&)		= delete; //move assign
+	Singleton(Singleton const&)				= delete; //disable copy
+	Singleton(Singleton&&)					= delete; //disable move 
+	Singleton& operator=(Singleton const&)	= delete; //disable copy assign
+	Singleton& operator=(Singleton&&)		= delete; //disable move assign
 
   protected:
-	Singleton() {}
+	Singleton()  {}
 	~Singleton() {}
 };

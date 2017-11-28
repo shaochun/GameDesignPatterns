@@ -17,5 +17,13 @@
     <ClCompile Include="Singleton.h">
       <Filter>Patterns</Filter>
     </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>Patterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,20 +7,26 @@
 [Tt]emp/
 ipch/
 
+# Unity
 Library
 Temp
 Build
+*.csproj
 
 # Auto-generated VS solution and project files
+.vs
+x64
 *.suo
 *.user
 *.userprefs
 *.pdb
 *.tlog
 *.log
-x64
 *.VC.db
 *.VC.opendb
+
+Sublime
+*.sublime-workspace
 
 # Builds
 *.apk
@@ -32,12 +38,4 @@ UpgradeLog*
 
 
 # Project/Stuff to Ignore
-pkgAmplify
-testB2M
-testReflection.rar
-testDynbone
-testWaterUV
 
-# Ignore amplify in specific projects
-testDaynight/Assets/amplify
-testDaynight/Assets/amplify.meta
